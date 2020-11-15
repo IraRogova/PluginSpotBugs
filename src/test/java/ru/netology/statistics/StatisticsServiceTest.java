@@ -1,12 +1,13 @@
 package ru.netology.statistics;
 
+import org.junit.jupiter.api.Test;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class StatisticsServiceTest {
 
-    @org.junit.jupiter.api.Test
+    @Test
     void findMax() {
-        @Test
         void findMax() {
             StatisticsService service = new StatisticsService();
 
